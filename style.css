@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,#fff,#ccc);
+}
+#container{
+    height: 400px;
+    width: 550px;
+    background-color: rgba(182, 118, 35,0.6);
+    margin: 95px auto;
+    padding: 20px;  
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #4e451b;
+    position: relative;
+}
+
+#score{
+    border: 1px solid #f2f091;
+    box-shadow: 0px 3px #a6c741;
+    background-color: #f2f091;
+    padding: 5px;
+    position: absolute;
+    left: 495px;
+    width: 75px;
+    text-align: center;
+    color: #a1a048;    
+}
+
+#correct{
+/*
+    border: 1px solid #f2f091;
+    box-shadow: 0px 3px #a6c741;
+*/
+    background-color: #46d42a;
+    padding: 7px;
+    position: absolute;
+    left: 280px;
+    width: 60px;
+    text-align: center;
+    color: white; 
+    display: none;
+}
+
+#try{
+/*    border: 1px solid #f2f091;*/
+/*    box-shadow: 0px 3px #a6c741;*/
+    background-color: #db2323;
+    padding: 8px;
+    position: absolute;
+    left: 280px;
+    width: 70px;
+    text-align: center;
+    color: white; 
+    display: none;
+}
+
+#quiz{
+    height: 150px;
+    width: 450px;
+    background-color: #9DA0EA;
+    margin: 45px auto 10px auto;
+    font-size: 95px;
+    text-align: center;
+    font-family: cursive;
+/*    padding: 25px 0px 0px 0px;*/
+    box-shadow: 0px 4px #535aa8;
+}
+
+#instruction{
+    height: 60px;
+    width: 450px;
+    background-color: #d494e5;
+    margin: 10px auto;
+    box-shadow: 0px 4px #c961e9;
+    text-align: center;
+    line-height: 60px;
+}
+
+#choices{
+    height: 80px;
+    width: 450px;
+    margin: 5px auto;
+}
+.box{
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    text-align: center;
+    line-height: 77px;
+    cursor: pointer;
+    color:  rgb(202, 125, 23);
+    border-radius: 3px;
+    box-shadow: 0px 3px rgba(0,0,0,0.3);
+    position: relative;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+}
+
+.box:hover, #start:hover{
+   
+    background-color: #9DA0EA;
+    color: rgb(136, 91, 7);
+    font-weight: bold;
+}
+
+.box:active, #start:active{
+    top: 4px;
+    border-color: transparent;
+}
+
+#div4{
+    margin-right: 0px;
+}
+
+#clear{
+    clear: both;
+}
+
+#start 
+{    
+    width: 95px;
+    padding: 8px;
+    margin-left: 230px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    cursor: pointer;
+    /*color:  rgb(202, 125, 23);*/
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px 3px rgba(0,0,0,0.3);
+    position: relative;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+}
+
+#time{
+    width: 155px;
+    padding: 10px;
+    position: absolute;
+    left:400px;
+    top: 396px;
+    border-radius: 3px;
+    background-color: #4bca32;
+    /*visibility: hidden;*/ 
+    display: none;
+}
+
+#gameOver{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#F3ca6b,#f3706c);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 97px;
+    left: 45px;
+    z-index: 2;
+    display: none ;
+}
